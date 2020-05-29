@@ -501,7 +501,7 @@
 			};
 			name = Debug;
 		};
-		54AF1637FFCAF3B3189562060271D926 /* Debug */ = {
+		E3AED9ADF66A841956099370A7F30602 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3239B16A6F19DF1CABBA284EDFF086EA /* React-CoreModules.debug.xcconfig */;
 			buildSettings = {
@@ -520,11 +520,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C88D0384A20F18A76DB56B20F69AFC95 /* Release */ = {
+		E803CF3965E315C3DD1291557B5AD26A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78D6E95ED899C8C06AFE2E84F74B4FA3 /* React-CoreModules.release.xcconfig */;
 			buildSettings = {
@@ -543,6 +544,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -554,8 +556,8 @@
 		7BB7AC221C367A6259E48A372D374A11 /* Build configuration list for PBXNativeTarget "React-CoreModules" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54AF1637FFCAF3B3189562060271D926 /* Debug */,
-				C88D0384A20F18A76DB56B20F69AFC95 /* Release */,
+				E3AED9ADF66A841956099370A7F30602 /* Debug */,
+				E803CF3965E315C3DD1291557B5AD26A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

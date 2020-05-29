@@ -1743,7 +1743,7 @@ CACHE_KEYS:
       react-native-safe-area-context:
         :debug: 71dcb769da78260074adb01e3fcad0bb
         :release: 71dcb769da78260074adb01e3fcad0bb
-    CHECKSUM: 14c793e8b0bfe51e74dcdbe75dd14ee7498b88b8
+    CHECKSUM: b11a34881faac509cad5578726c98161ad4d275c
     FILES:
       - "../../../../node_modules/react-native-safe-area-context/ios/SafeAreaView/RCTView+SafeAreaCompat.h"
       - "../../../../node_modules/react-native-safe-area-context/ios/SafeAreaView/RCTView+SafeAreaCompat.m"
@@ -1761,11 +1761,13 @@ CACHE_KEYS:
       - "../../../../node_modules/react-native-safe-area-context/ios/SafeAreaView/RNCSafeAreaViewLocalData.m"
       - "../../../../node_modules/react-native-safe-area-context/ios/SafeAreaView/RNCSafeAreaViewManager.h"
       - "../../../../node_modules/react-native-safe-area-context/ios/SafeAreaView/RNCSafeAreaViewManager.m"
+      - "../../../../node_modules/react-native-safe-area-context/ios/SafeAreaView/RNCSafeAreaViewMode.h"
+      - "../../../../node_modules/react-native-safe-area-context/ios/SafeAreaView/RNCSafeAreaViewMode.m"
       - "../../../../node_modules/react-native-safe-area-context/LICENSE"
       - "../../../../node_modules/react-native-safe-area-context/README.md"
     PROJECT_NAME: react-native-safe-area-context
     SPECS:
-      - react-native-safe-area-context (2.0.3)
+      - react-native-safe-area-context (3.0.2)
   react-native-segmented-control:
     BUILD_SETTINGS_CHECKSUM:
       react-native-segmented-control:

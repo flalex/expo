@@ -337,7 +337,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6DD2EC97560B5FEE48B0F9987DE92642 /* Debug */ = {
+		881549CF82CACEB58E0F87F169A54678 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 925CBA0B991E7C3CEE5CC870DD6BA4A8 /* React-RCTImage.debug.xcconfig */;
 			buildSettings = {
@@ -356,11 +356,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B75D17165A7236EBB4CCE71747007AC6 /* Release */ = {
+		C5F568340B8EE44F681F94DB00F621EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D7CCB845A4FB29BF6688E5AC11A0BC1 /* React-RCTImage.release.xcconfig */;
 			buildSettings = {
@@ -379,6 +380,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -514,8 +516,8 @@
 		BD94BA1CCB29FF75656E114DA73C3BB1 /* Build configuration list for PBXNativeTarget "React-RCTImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DD2EC97560B5FEE48B0F9987DE92642 /* Debug */,
-				B75D17165A7236EBB4CCE71747007AC6 /* Release */,
+				881549CF82CACEB58E0F87F169A54678 /* Debug */,
+				C5F568340B8EE44F681F94DB00F621EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

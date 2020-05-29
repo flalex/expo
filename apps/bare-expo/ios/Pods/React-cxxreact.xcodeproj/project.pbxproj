@@ -391,6 +391,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		270DD73BF8A363A7D1279732943D6023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1364C8AEB608FA5152841A6225170AF1 /* React-cxxreact.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/React-cxxreact/React-cxxreact-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = cxxreact;
+				PRODUCT_NAME = "React-cxxreact";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		2EE0CEC85DAC86F42FE97C9D811BE353 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -515,30 +539,7 @@
 			};
 			name = Release;
 		};
-		AA2901C531B89DA89B8E41B6E897CECC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1364C8AEB608FA5152841A6225170AF1 /* React-cxxreact.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/React-cxxreact/React-cxxreact-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = cxxreact;
-				PRODUCT_NAME = "React-cxxreact";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DA161EC1919AD76B6B5C60EDA1E83CC3 /* Release */ = {
+		8AE03AB249C6E54D693D031F9324985D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 831FDBC6AC0D824B438B8788940F372A /* React-cxxreact.release.xcconfig */;
 			buildSettings = {
@@ -557,6 +558,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -568,8 +570,8 @@
 		23D5517B56B5019A82F2C2F8DAD974FC /* Build configuration list for PBXNativeTarget "React-cxxreact" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA2901C531B89DA89B8E41B6E897CECC /* Debug */,
-				DA161EC1919AD76B6B5C60EDA1E83CC3 /* Release */,
+				270DD73BF8A363A7D1279732943D6023 /* Debug */,
+				8AE03AB249C6E54D693D031F9324985D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

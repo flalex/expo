@@ -207,30 +207,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		24DF41D88F3464A006ED52D5266F39AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9DC762710CA3BFDA5F7AE0A9CCE8B21 /* react-native-segmented-control.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/react-native-segmented-control/react-native-segmented-control-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = react_native_segmented_control;
-				PRODUCT_NAME = "react-native-segmented-control";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		770628DCB1DE802E138DB37613C66406 /* Release */ = {
+		949C0FCD43A0533E3AC2946EE294FDFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 93056CF4EC6B77A9B92930372FE898E0 /* react-native-segmented-control.release.xcconfig */;
 			buildSettings = {
@@ -249,10 +226,35 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		C29C42925458FA15334E474A1DE1BB59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DC762710CA3BFDA5F7AE0A9CCE8B21 /* react-native-segmented-control.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/react-native-segmented-control/react-native-segmented-control-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = react_native_segmented_control;
+				PRODUCT_NAME = "react-native-segmented-control";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		D838DFD3A11CDE62B4D50805221D3F7A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -384,8 +386,8 @@
 		D05FB5550E88084ED15AF518A8179E31 /* Build configuration list for PBXNativeTarget "react-native-segmented-control" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				24DF41D88F3464A006ED52D5266F39AF /* Debug */,
-				770628DCB1DE802E138DB37613C66406 /* Release */,
+				C29C42925458FA15334E474A1DE1BB59 /* Debug */,
+				949C0FCD43A0533E3AC2946EE294FDFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

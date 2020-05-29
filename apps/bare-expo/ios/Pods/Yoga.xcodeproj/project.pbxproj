@@ -297,7 +297,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0EA95481472E50B683A2D5565EF1C9BC /* Release */ = {
+		8AC3E0FD356F4B77E924117398C39B3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0683F47C777DB2EF23A85C07728FC2A1 /* Yoga.release.xcconfig */;
 			buildSettings = {
@@ -317,12 +317,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		88CE55396AFDB44B38BE3F7D0C462EE0 /* Debug */ = {
+		8C0AD225424DE1F7B500D5BDE195FD2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8356BA6089D269F3BF1C64F8E08F1D8A /* Yoga.debug.xcconfig */;
 			buildSettings = {
@@ -342,6 +343,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -476,8 +478,8 @@
 		B14F1D6AB05C19F355F148A2A88D7DFB /* Build configuration list for PBXNativeTarget "Yoga" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88CE55396AFDB44B38BE3F7D0C462EE0 /* Debug */,
-				0EA95481472E50B683A2D5565EF1C9BC /* Release */,
+				8C0AD225424DE1F7B500D5BDE195FD2B /* Debug */,
+				8AC3E0FD356F4B77E924117398C39B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

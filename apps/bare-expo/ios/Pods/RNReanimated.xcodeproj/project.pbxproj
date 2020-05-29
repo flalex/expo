@@ -493,6 +493,31 @@
 			};
 			name = Debug;
 		};
+		1C619653564B7A679E9FFE8826DD1DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3B0A1C72C3C422D8670A53A4D2002E /* RNReanimated.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RNReanimated/RNReanimated-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RNReanimated;
+				PRODUCT_NAME = RNReanimated;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		BEB8E928535013CBB23588606F502118 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -553,31 +578,7 @@
 			};
 			name = Release;
 		};
-		FA348EE89DA929830F0BCFAABABB9A1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF3B0A1C72C3C422D8670A53A4D2002E /* RNReanimated.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/RNReanimated/RNReanimated-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = RNReanimated;
-				PRODUCT_NAME = RNReanimated;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FDBD8E0B4AFAF90501B7016AE54B9BD5 /* Debug */ = {
+		DAAB6A4B1A0EED13A3606E9AFDB65A03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2BA884035F373475A41922137911069 /* RNReanimated.debug.xcconfig */;
 			buildSettings = {
@@ -596,6 +597,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -606,8 +608,8 @@
 		3383ADB393F46436250CBEBA48BC3F37 /* Build configuration list for PBXNativeTarget "RNReanimated" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDBD8E0B4AFAF90501B7016AE54B9BD5 /* Debug */,
-				FA348EE89DA929830F0BCFAABABB9A1C /* Release */,
+				DAAB6A4B1A0EED13A3606E9AFDB65A03 /* Debug */,
+				1C619653564B7A679E9FFE8826DD1DD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

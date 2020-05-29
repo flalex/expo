@@ -161,30 +161,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		29B32FC63752B5063532C2C9142BBFEB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 248B1E5008475530F5546F672630A3ED /* React-jsinspector.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/React-jsinspector/React-jsinspector-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = jsinspector;
-				PRODUCT_NAME = "React-jsinspector";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		41F53401A87FE5A33EED7C9435F2CEE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -245,7 +221,7 @@
 			};
 			name = Release;
 		};
-		A6637A451F1F5C21BBB1706F95A382E3 /* Debug */ = {
+		532B3A30C917DD5EFC11A7E0867E0952 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD8B606ABEB47E523CE8E9311472A16D /* React-jsinspector.debug.xcconfig */;
 			buildSettings = {
@@ -264,9 +240,35 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		D3D45F70BBCC1EB2F24B40798AEED0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248B1E5008475530F5546F672630A3ED /* React-jsinspector.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/React-jsinspector/React-jsinspector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = jsinspector;
+				PRODUCT_NAME = "React-jsinspector";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		E40F588ED5D224D5B2CF6E4A5994FA6F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -338,8 +340,8 @@
 		022719D655BD874370360BFF5D133BFB /* Build configuration list for PBXNativeTarget "React-jsinspector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6637A451F1F5C21BBB1706F95A382E3 /* Debug */,
-				29B32FC63752B5063532C2C9142BBFEB /* Release */,
+				532B3A30C917DD5EFC11A7E0867E0952 /* Debug */,
+				D3D45F70BBCC1EB2F24B40798AEED0B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

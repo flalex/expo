@@ -319,31 +319,7 @@
 			};
 			name = Debug;
 		};
-		95E2942C7701105D0A043D5EC51EFCDD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F6EED5095639FB09FE581D046A1FC93 /* EXInAppPurchases.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/EXInAppPurchases/EXInAppPurchases-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = EXInAppPurchases;
-				PRODUCT_NAME = EXInAppPurchases;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DB7A0F409F9C69C06D59592867469334 /* Release */ = {
+		669E4DD4B44F14E4BE394CA17EC99C70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 103A757DD2DD20AAE07BAF5BA679CE93 /* EXInAppPurchases.release.xcconfig */;
 			buildSettings = {
@@ -363,10 +339,36 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		D3817789B2294690E3C982A50EC6F6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6EED5095639FB09FE581D046A1FC93 /* EXInAppPurchases.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EXInAppPurchases/EXInAppPurchases-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EXInAppPurchases;
+				PRODUCT_NAME = EXInAppPurchases;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -374,8 +376,8 @@
 		6A9CDBC28A51923F7D5283F484B9C25A /* Build configuration list for PBXNativeTarget "EXInAppPurchases" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95E2942C7701105D0A043D5EC51EFCDD /* Debug */,
-				DB7A0F409F9C69C06D59592867469334 /* Release */,
+				D3817789B2294690E3C982A50EC6F6B5 /* Debug */,
+				669E4DD4B44F14E4BE394CA17EC99C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

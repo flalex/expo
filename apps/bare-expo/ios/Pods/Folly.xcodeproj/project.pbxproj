@@ -273,9 +273,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8083993BC10BC70022A269033F93B75B /* Release */ = {
+		575BB274EAD50729AACE494DA7E5C58B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89906260910A852B53B3D762D6BF737D /* Folly.release.xcconfig */;
+			baseConfigurationReference = A9C3285499C91652EB8B2635E8763859 /* Folly.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -292,10 +292,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		8FE960564CC14F9B9342A9053B5E0F4D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -361,9 +361,9 @@
 			};
 			name = Debug;
 		};
-		DDD36063D9A02F10602169269D481F55 /* Debug */ = {
+		F38B274B6B6B47CEAA8A6796757AFCD3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9C3285499C91652EB8B2635E8763859 /* Folly.debug.xcconfig */;
+			baseConfigurationReference = 89906260910A852B53B3D762D6BF737D /* Folly.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -380,9 +380,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		FFAF1DB89EA39F512C259F6D4473005F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -459,8 +461,8 @@
 		E6749141538F9E0A8A7E20F8FAB513B2 /* Build configuration list for PBXNativeTarget "Folly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDD36063D9A02F10602169269D481F55 /* Debug */,
-				8083993BC10BC70022A269033F93B75B /* Release */,
+				575BB274EAD50729AACE494DA7E5C58B /* Debug */,
+				F38B274B6B6B47CEAA8A6796757AFCD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

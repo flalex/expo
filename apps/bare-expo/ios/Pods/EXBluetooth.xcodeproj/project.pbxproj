@@ -267,31 +267,7 @@
 			};
 			name = Debug;
 		};
-		979ABD22A133A87D138B272AD04EB2D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1621CC682A9CE86CBDC1F5B6EC832C2 /* EXBluetooth.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/EXBluetooth/EXBluetooth-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = EXBluetooth;
-				PRODUCT_NAME = EXBluetooth;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		ACEF99A2CD8E905128D882428F1B2BA5 /* Release */ = {
+		BE0B98C7BA5B9B076D6C59E98BEACCBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1792F7C694AE9277C006516201F3920A /* EXBluetooth.release.xcconfig */;
 			buildSettings = {
@@ -311,10 +287,36 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		CE4A57D351932F0CE83C5C925041BAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1621CC682A9CE86CBDC1F5B6EC832C2 /* EXBluetooth.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EXBluetooth/EXBluetooth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EXBluetooth;
+				PRODUCT_NAME = EXBluetooth;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		D843FC6FA802233BC5726403E28F555D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -391,8 +393,8 @@
 		E2F3550EF6ED601E51C7E8FDD0B19CBF /* Build configuration list for PBXNativeTarget "EXBluetooth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				979ABD22A133A87D138B272AD04EB2D4 /* Debug */,
-				ACEF99A2CD8E905128D882428F1B2BA5 /* Release */,
+				CE4A57D351932F0CE83C5C925041BAF3 /* Debug */,
+				BE0B98C7BA5B9B076D6C59E98BEACCBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

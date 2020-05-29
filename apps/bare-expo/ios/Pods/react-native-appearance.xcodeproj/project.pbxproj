@@ -279,29 +279,6 @@
 			};
 			name = Debug;
 		};
-		35A490F1EFA55A6FBDF08E42901F0DF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8BBDFDE78207250E64DC302913354D2 /* react-native-appearance.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/react-native-appearance/react-native-appearance-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = react_native_appearance;
-				PRODUCT_NAME = "react-native-appearance";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		447F1137C2B49CBA2D6015A557818796 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -362,7 +339,7 @@
 			};
 			name = Release;
 		};
-		C38576D162BABF3B6A4DD60C1BB4B1E6 /* Release */ = {
+		9316C916F3F56FB36C66D379C4206DCE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D08578AF62DFC00B7C5B2B4A42C02D32 /* react-native-appearance.release.xcconfig */;
 			buildSettings = {
@@ -381,10 +358,35 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		C1062580E1D7FEEB48C6E82176F6EAE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BBDFDE78207250E64DC302913354D2 /* react-native-appearance.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/react-native-appearance/react-native-appearance-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = react_native_appearance;
+				PRODUCT_NAME = "react-native-appearance";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -392,8 +394,8 @@
 		8A5EB7A5CE061FED89157A4C9C01DE39 /* Build configuration list for PBXNativeTarget "react-native-appearance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35A490F1EFA55A6FBDF08E42901F0DF5 /* Debug */,
-				C38576D162BABF3B6A4DD60C1BB4B1E6 /* Release */,
+				C1062580E1D7FEEB48C6E82176F6EAE9 /* Debug */,
+				9316C916F3F56FB36C66D379C4206DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -2091,7 +2091,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		102F67B5C60206653B18E5E2D2B06346 /* Release */ = {
+		42AC1BFC9EB6566DF3785FE88ABD5D37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7721C09DF18E001DC0C10F9DD8BE1ED6 /* React-Core.release.xcconfig */;
 			buildSettings = {
@@ -2110,10 +2110,35 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		478F91629A413C6265513A5E0FFF59AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE48C0D658EE58E5D3AA1D1F28160B6F /* React-Core.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/React-Core/React-Core-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = React;
+				PRODUCT_NAME = "React-Core";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		804E2B58FFEEABB9B65F23CA370441F6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2174,29 +2199,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		B41B17482B6F4CE2D6D70D5C988670F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE48C0D658EE58E5D3AA1D1F28160B6F /* React-Core.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/React-Core/React-Core-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = React;
-				PRODUCT_NAME = "React-Core";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		C2A97112ED3605CC4CB0FDBD6014DDC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2268,8 +2270,8 @@
 		60E635704591687B93DC251E32603353 /* Build configuration list for PBXNativeTarget "React-Core" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B41B17482B6F4CE2D6D70D5C988670F4 /* Debug */,
-				102F67B5C60206653B18E5E2D2B06346 /* Release */,
+				478F91629A413C6265513A5E0FFF59AA /* Debug */,
+				42AC1BFC9EB6566DF3785FE88ABD5D37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

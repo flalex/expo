@@ -283,6 +283,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		33BC81102F9229D1127321781F9A095C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 696E704621424AB73953AAC008D6D27C /* React-RCTNetwork.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/React-RCTNetwork/React-RCTNetwork-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RCTNetwork;
+				PRODUCT_NAME = "React-RCTNetwork";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		3EB9E202010110C47157F13124F04881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -407,30 +431,7 @@
 			};
 			name = Release;
 		};
-		A10C8AA849B2D0F1D6B7CCBBD1735472 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 696E704621424AB73953AAC008D6D27C /* React-RCTNetwork.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/React-RCTNetwork/React-RCTNetwork-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = RCTNetwork;
-				PRODUCT_NAME = "React-RCTNetwork";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C0E8035F2C7B1073E4BC84B384CF6B32 /* Release */ = {
+		DA580810668AA3F3A910C792F3CD7DF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9998137A2B7C6220CC9C2BD8F76B836E /* React-RCTNetwork.release.xcconfig */;
 			buildSettings = {
@@ -449,6 +450,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -460,8 +462,8 @@
 		1574406D81C6D564E6513D771D8EEDF6 /* Build configuration list for PBXNativeTarget "React-RCTNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A10C8AA849B2D0F1D6B7CCBBD1735472 /* Debug */,
-				C0E8035F2C7B1073E4BC84B384CF6B32 /* Release */,
+				33BC81102F9229D1127321781F9A095C /* Debug */,
+				DA580810668AA3F3A910C792F3CD7DF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

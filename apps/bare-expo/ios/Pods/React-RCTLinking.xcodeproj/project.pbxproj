@@ -231,9 +231,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6A63EFD646339A330D002D6CA26AD4FA /* Release */ = {
+		0216CD2BD03B71D60ACD368A5D009455 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F03EDC3820209EB2844F2D316FF2B05 /* React-RCTLinking.release.xcconfig */;
+			baseConfigurationReference = C74D4FC3FDE59DD9CB3C1D12299B3105 /* React-RCTLinking.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -250,10 +250,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		702D67A40BD3C449E0A9CF6AC7CE26AA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -379,9 +379,9 @@
 			};
 			name = Debug;
 		};
-		D725B82FE631A61206C825D00AA55FB6 /* Debug */ = {
+		E178559084B7B38ED0FB891D7BDDE046 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C74D4FC3FDE59DD9CB3C1D12299B3105 /* React-RCTLinking.debug.xcconfig */;
+			baseConfigurationReference = 2F03EDC3820209EB2844F2D316FF2B05 /* React-RCTLinking.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -398,9 +398,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -408,8 +410,8 @@
 		9E1F9F4D7DF5B21F46FC4DC6FCA5B688 /* Build configuration list for PBXNativeTarget "React-RCTLinking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D725B82FE631A61206C825D00AA55FB6 /* Debug */,
-				6A63EFD646339A330D002D6CA26AD4FA /* Release */,
+				0216CD2BD03B71D60ACD368A5D009455 /* Debug */,
+				E178559084B7B38ED0FB891D7BDDE046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

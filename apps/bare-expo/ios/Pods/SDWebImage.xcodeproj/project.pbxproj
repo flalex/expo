@@ -707,9 +707,9 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		178CFD2BFD0E50D9335C6A2013B5FF69 /* Release */ = {
+		0BF927EFB9D019DFA7250503A0F88E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 970619E88325069B9B9EEBE8F04C4D55 /* SDWebImage.release.xcconfig */;
+			baseConfigurationReference = 69BD9776A6D684992B810BC73CBD339F /* SDWebImage.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -726,10 +726,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		4C467B68731710F75475B00E6E795110 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -795,29 +795,6 @@
 			};
 			name = Debug;
 		};
-		955B1BE032FEA54935B068E96959CC4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69BD9776A6D684992B810BC73CBD339F /* SDWebImage.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SDWebImage;
-				PRODUCT_NAME = SDWebImage;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		992FE912A8E2CD7002318F10D37CB871 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -878,6 +855,31 @@
 			};
 			name = Release;
 		};
+		B6328B7DAA5D87CC3CEB7895900D8DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970619E88325069B9B9EEBE8F04C4D55 /* SDWebImage.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -893,8 +895,8 @@
 		ED8D9B3EC489C159C7491E0CDEE7A94E /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				955B1BE032FEA54935B068E96959CC4C /* Debug */,
-				178CFD2BFD0E50D9335C6A2013B5FF69 /* Release */,
+				0BF927EFB9D019DFA7250503A0F88E41 /* Debug */,
+				B6328B7DAA5D87CC3CEB7895900D8DF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
