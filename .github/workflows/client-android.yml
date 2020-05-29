@@ -75,6 +75,9 @@ jobs:
           key: ${{ runner.os }}-gradle-${{ hashFiles('android/*.gradle*') }}
           restore-keys: |
             ${{ runner.os }}-gradle-
+      - name: Install NDK
+        run: |
+          $ANDROID_HOME/tools/bin/sdkmanager --install "ndk;19.2.5345600"
       - name: Build APK
         env:
           ANDROID_KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_B64 }}
